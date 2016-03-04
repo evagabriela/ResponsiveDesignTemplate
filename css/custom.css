@@ -9,6 +9,17 @@ img {
 	max-width: 100%;
 }
 
+h2 {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #97689c;
+}
 /* === NAVBAR ===*/
 
 .navbar {
@@ -18,11 +29,11 @@ img {
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
-    color: white;
+    color: #fff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: white;
+	background-color: #fff;
 }
 
 /* === FEATURE ===*/
@@ -56,10 +67,31 @@ img {
 	width: 100%;
 	background: rgba(74,82,95,0.2);
 	border-radius: 10px;
-	color: white;
+	color: #fff ;
 	font-size: 48px;
 	padding: 3%;
 	line-height: 80px;
+}
+
+/* === WELCOME SECTION ===*/
+#welcome {
+	background: #fff;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#welcome a {
+	color: #494646;
+}
+
+.facilities {
+	font-size: 1.5em;
+}
+
+.facilities img {
+	display: block;
+	max-width: 60%;
+	margin: 30px auto;
 }
 
 /* === MOBILE STYLING ===*/
@@ -72,5 +104,9 @@ img {
 	.feature-text p {
 		font-size: 28px;
 		line-height: 28px;
+	}
+
+	h2 {
+		font-size: 1.6em;
 	}
 }
