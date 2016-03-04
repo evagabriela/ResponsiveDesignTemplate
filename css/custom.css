@@ -33,6 +33,10 @@ a:hover {
 	color: #97689c;
 }
 
+ul {
+	padding: 0;
+}
+
 li {
 	list-style: none;
 }
@@ -210,5 +214,13 @@ i {
 
 	h2 {
 		font-size: 1.6em;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	footer ul, address {
+		border-bottom: 1px dotted;
 	}
 }
