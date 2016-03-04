@@ -107,6 +107,7 @@ a:hover {
 	position: relative;
 	min-height: 350px;
 	padding: 40px 10px;
+	margin-bottom: 60px;
 }
 
 .offer span {
@@ -123,6 +124,19 @@ a:hover {
 	top: -50px;
 	font-size: 2em;
 	font-weight: bold;
+}
+
+.offer h3 {
+	margin-bottom: 50px;
+	font-size: 1.2em;
+}
+
+.offer p {
+	line-height: 2em;
+}
+
+.margin-bottom {
+	margin-bottom: 70px;
 }
 
 /* === MOBILE STYLING ===*/
