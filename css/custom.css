@@ -219,6 +219,16 @@ i {
 	padding: 20px;
 }
 
+/* === ABOUT US SECTION ===*/
+#about {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#about p {
+	margin: 30px 0;
+}
+
 /* === MOBILE STYLING ===*/
 @media screen and (max-width : 768px) {
 
