@@ -9,6 +9,18 @@ img {
 	max-width: 100%;
 }
 
+.btn-default {
+	background-color: #8393ca;
+	border: 3px solid #ecf0f1;
+	border-radius: 5px;
+	padding: 15px 30px;
+	color: #fff;
+}
+
+.btn-default:hover {
+	background-color: #97689c;
+}
+
 h2 {
 	text-align: center;
 	font-size: 2em;
@@ -20,8 +32,8 @@ a:hover {
 	text-decoration: none;
 	color: #97689c;
 }
-/* === NAVBAR ===*/
 
+/* === NAVBAR ===*/
 .navbar {
 	background: #97689c;
 	margin-bottom: 0;
@@ -37,7 +49,6 @@ a:hover {
 }
 
 /* === FEATURE ===*/
-
 .feature {
 	position: relative;
 }
@@ -95,7 +106,6 @@ a:hover {
 }
 
 /* === LATEST OFFERS SECTION ===*/
-
 #latest-offers {
 	text-align: center;
 	color: #fff;
@@ -137,6 +147,17 @@ a:hover {
 
 .margin-bottom {
 	margin-bottom: 70px;
+}
+
+/* === SHOP ONLINE SECTION ===*/
+#shop-online {
+	background: url(../images/products.jpg) center no-repeat;
+	min-height: 852px;
+	color: #494696;
+}
+
+#shop-online .btn-default {
+	margin-top: 25px;
 }
 
 /* === MOBILE STYLING ===*/
