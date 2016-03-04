@@ -33,6 +33,18 @@ a:hover {
 	color: #97689c;
 }
 
+li {
+	list-style: none;
+}
+
+footer li a {
+	color: #fff;
+}
+
+footer li a:hover {
+	color: #494646;
+}
+
 /* === NAVBAR ===*/
 .navbar {
 	background: #97689c;
@@ -160,7 +172,28 @@ a:hover {
 	margin-top: 25px;
 }
 
-/* === FOOTER SECTION ===*/
+/* === KEEP IN TOUCH SECTION ===*/
+footer {
+	color: #fff;
+	background-color: #97689c;
+}
+
+footer li, address {
+	line-height: 2em;
+}
+
+i {
+	margin-right: 15px;
+}
+
+#copy {
+	text-align: center;;
+	background-color: #fff;
+	color: #494696;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 30px;
+}
 
 
 /* === MOBILE STYLING ===*/
