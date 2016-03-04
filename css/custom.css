@@ -229,6 +229,32 @@ i {
 	margin: 30px 0;
 }
 
+/* === CONTACT US SECTION ===*/
+#contact {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.address {
+	text-align: left;
+	margin-top: 30px;
+	font-size: 1.2em;
+	line-height: 2em;
+}
+
+.address i {
+	color: #97689c;
+}
+
+#contact iframe {
+	margin-top: 30px;
+	max-width: 100%;
+}
+
+.message-area {
+	margin-top: 30px;
+}
+
 /* === MOBILE STYLING ===*/
 @media screen and (max-width : 768px) {
 
@@ -245,7 +271,7 @@ i {
 		font-size: 1.6em;
 	}
 
-	footer {
+	footer, .address {
 		text-align: center;
 	}
 
